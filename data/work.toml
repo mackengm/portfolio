@@ -1,0 +1,33 @@
+title = "Projects"
+
+[[projects]]
+    name = "Visualizing Abolition and Freedom"
+    folder = "proj-1"
+
+[[projects]]
+    name = "Summitt Dweller's Landing Page"
+    folder = "proj-2"
+
+[[projects]]
+    name = "The Mayflower Directory"
+    folder = "proj-3"
+
+[[projects]]
+    name = "Alumni Oral History Project"
+    folder = "proj-4"
+
+##[[projects]]
+  ##  name = "Fresh It Up"
+    ##folder = "proj-5"
+
+##[[projects]]
+  ##  name = "Timeline Page"
+    ##folder = "proj-6"
+
+##[[projects]]
+  ##  name = "Weather Dashboard"
+    ##folder = "proj-7"
+
+##[[projects]]
+  ##  name = "Stripes & Co"
+    ##folder = "proj-8"
