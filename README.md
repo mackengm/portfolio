@@ -4,7 +4,7 @@
 
 ```
 fin init
-``` 
+```
 
 Will initialize new site, append a test content and compile the site.
 
@@ -18,7 +18,7 @@ To develop a Hugo project you need Hugo running in a server mode ([Hugo Quicksta
 fin develop
 ```
 
-Starts a Hugo server. The server will be available at `http://$VIRTUAL_HOST`. 
+Starts a Hugo server. The server will be available at `http://$VIRTUAL_HOST`.
 Updates as you edit, reload the page to see your changes.
 
 **NOTE:** once started, the Hugo server will run, blocking the console. Kill it with `Ctrl-C`, when you are done.
@@ -27,6 +27,15 @@ Updates as you edit, reload the page to see your changes.
 
 ```
 fin compile
-``` 
+```
 
 Will re-compile static site into `public` folder. It is available at `http://static.$VIRTUAL_HOST`
+
+## Building a Docker image
+```
+cd ~/Sites/StaticSites/personal/portfolio
+docker image build -t new-img .
+docker login
+docker tag new-img m4ck3ngm/portfolio:latest
+docker push m4ck3ngm/portfolio:latest
+```
