@@ -1,8 +1,9 @@
 # Site settings
-baseurl = "https://m4ck3ngm.com"
+baseurl = "https://portfolio.m4ck3ngm.com/"
 languageCode = "en-us"
 title = "Hugo Artists Theme"
 theme = "hugo-artists-theme"
+canonifyurls = true
 
 [params]
 
@@ -67,7 +68,7 @@ theme = "hugo-artists-theme"
 
 		[[params.about.skills]]
 			name = "Scheme"
-			value = 8		
+			value = 8
 
 	# Contact secion
 	[params.contact]
