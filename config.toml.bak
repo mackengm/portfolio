@@ -1,0 +1,65 @@
+# Page settings
+
+baseurl = "https://portfolio.m4ck3ngm.com/"
+languageCode = "en-us"
+title = "Mackenzie G. McFate"
+copyright = "© Hugo Theme Doors"
+#googleAnalytics = "UA-xxxxxxxx-x"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+theme = "hugo-theme-doors"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+# Site information
+[params]
+description = "A site to showcase projects I've been a part of."
+#ogimage = "images/work1.jpg"
+
+# Project section
+[params.projects]
+
+[[params.projects.list]]
+title = "My Landing Page"
+url = "https://m4ck3ngm.com"
+description = "Access my blog & portfolio."
+image = "images/work3.jpg"
+w = "780"
+h = "518"
+
+# Subproject section
+[params.subprojects]
+
+[[params.subprojects.list]]
+title = "Alumni Oral Histories"
+url = "https://digital.grinnell.edu/islandora/object/grinnell:alumni-oral-histories"
+description = "The Alumni Oral History Project aims to better understand and share the history of Grinnell College by recording and preserving oral histories with members of the Grinnell College alumni community."
+image = "images/grinnell-1938.jpg"
+w = "780"
+h = "522"
+
+[[params.subprojects.list]]
+title = "Visualizing Abolition and Freedom"
+url = "https://vaf.grinnell.edu"
+description = "Visualizing Abolition and Freedom is a collaborative project between students, faculty, and staff at Grinnell College. The piece itself consists of thirty-five resin blocks, each created by a different student or faculty member, in which the artist aimed to visualize a story, theme, or idea relating to slavery and freedom."
+image = "images/work1.jpg"
+w = "780"
+h = "518"
+
+[[params.subprojects.list]]
+title = "Italiano Woods"
+url = "#"
+description = "Adopt don't shop."
+image = "images/braccoitaliano_essosy.jpg"
+w = "780"
+h = "518"
+
+# Contact section
+[params.contact]
+description = "I would like to hear from you. Please contact me via email or social media."
+twitter = "https://twitter.com/M4CK3NGM"
+facebook = ""
+linkedin = "https://www.linkedin.com/in/mackenzie-mcfate-4a1062156/?trk=onboarding-landing&dl=no"
+github = "https://github.com/mackengm"
+email = "m4ck3ngm@gmail.com"
