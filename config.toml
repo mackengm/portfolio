@@ -55,10 +55,18 @@ image = "images/crb.jpg"
 w = "780"
 h = "518"
 
+[[params.subprojects.list]]
+title = "STC REC Site"
+url = "https://stc-rec.tamatoledo.org"
+description = "A site for information and forms pertaining to South Tama County Schools' Recreation Programs."
+image = "images/sports.jpeg"
+w = "780"
+h = "518"
+
 # Contact section
 [params.contact]
 description = "I would like to hear from you. Please contact me via email or social media."
-twitter = "https://twitter.com/M4CK3NGM"
+twitter = ""
 facebook = ""
 linkedin = "https://www.linkedin.com/in/mackenzie-mcfate-4a1062156/?trk=onboarding-landing&dl=no"
 github = "https://github.com/mackengm"
